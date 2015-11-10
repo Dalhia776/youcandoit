@@ -11,7 +11,12 @@
  * file per style scope.
  *
  *= require_tree .
- *= require font-awesome
  *= require_self
- *= require styles
  */
+@import "variables";
+@import "bootstrap";
+@import "bootstrap-sprockets";
+@import 'font-awesome';
+@import 'custom_bootstrap';
+@import 'styles';
+@import '*';

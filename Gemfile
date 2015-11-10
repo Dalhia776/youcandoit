@@ -20,35 +20,28 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 
-gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
-
-gem "font-awesome-rails"
-
-gem 'simple_form'
-
-gem 'devise'
-
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
-
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# Use Unicorn as the app server
-# gem 'unicorn'
 
 group :development, :test do
   gem 'spring'
   gem 'sqlite3'
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-
-
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 end
 
-  group :production do
+group :production do
   gem 'rails_12factor'
   gem 'pg'
 end
+
+gem 'bootstrap-sass', '~> 3.3.1'
+
+gem 'autoprefixer-rails'
+
+gem 'font-awesome-rails'
+
+gem 'simple_form'
+
+gem 'devise'

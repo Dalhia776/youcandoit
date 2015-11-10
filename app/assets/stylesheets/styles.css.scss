@@ -1,30 +1,44 @@
-body {
-  background: image_url("candy_blur_abstract.jpg") no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: #8A4F7D;
-  font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 16px;
+//
+//
+.navbar-default {
+  // background-color: #86BBD8;
+	font-family: 'Rock Salt', cursive;
 }
-
-.navbar-custom {
-  background-color: #86BBD8;
-  color: white;
-  font-family: 'Rock Salt', cursive;
-  padding: 20px;
-}
-
-.navbar-brand {
-  color: white;
-  font-size: 24px;
-}
-
+//
+// .navbar-brand {
+//   color: white;
+//   font-size: 24px;
+// }
+//
 h1 {
   font-family: 'Rock Salt', cursive;
 }
-a {
-  color:#B08EA2;
-  text-decoration: none;
+// a {
+//   color:#B08EA2;
+//   text-decoration: none;
+// }
+//
+// .jumbotron {
+//   border: 2px solid #86BBD8;
+// }
+
+body {
+	background: image-url("typewriter.jpeg") no-repeat center center fixed;
+	font-family:'Pathway Gothic One', sans-serif;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.white {
+	color: white;
+}
+
+#task_content {
+	margin-bottom: 10px;
 }
